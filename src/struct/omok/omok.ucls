@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="struct.omok.Board" project="JavaPrj" file="/JavaPrj/src/struct/omok/Board.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="182" width="162" x="718" y="116"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="struct.omok.OmokList" project="JavaPrj" 
+    file="/JavaPrj/src/struct/omok/OmokList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="596" y="202"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="struct.omok.OmokProgram" project="JavaPrj" 
+    file="/JavaPrj/src/struct/omok/OmokProgram.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="129" y="216"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="struct.omok.Omok" project="JavaPrj" file="/JavaPrj/src/struct/omok/Omok.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="struct.omok.OmokCon" project="JavaPrj" 
+    file="/JavaPrj/src/struct/omok/OmokCon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="151" width="129" x="229" y="126"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.newlecture.javaprj.collection.ExamList" project="JavaPrj" 
+    file="/JavaPrj/src/com/newlecture/javaprj/collection/ExamList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="121" y="535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.newlecture.javaprj.entity.Exam" project="JavaPrj" 
+    file="/JavaPrj/src/com/newlecture/javaprj/entity/Exam.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="423" y="577"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.newlecture.javaprj.Program" project="JavaPrj" 
+    file="/JavaPrj/src/com/newlecture/javaprj/Program.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="636" y="572"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.newlecture.javaprj.ui.ExamConsole" project="JavaPrj" 
+    file="/JavaPrj/src/com/newlecture/javaprj/ui/ExamConsole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="116" x="873" y="502"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="10">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="11" name="exams"/>      
+      <multiplicity id="12" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
